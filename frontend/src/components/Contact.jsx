@@ -11,7 +11,7 @@ function Contact() {
       <section className="pt-24 pb-20 bg-base-100">
         <div className="max-w-screen-md mx-auto px-4">
 
-          {/* HEADER */}
+         
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold mb-3">Contact Us</h1>
             <p className="text-gray-500">
@@ -19,7 +19,7 @@ function Contact() {
             </p>
           </div>
 
-          {/* FORM */}
+          
           <div className="card bg-base-200 shadow-md">
             <div className="card-body space-y-4">
 
