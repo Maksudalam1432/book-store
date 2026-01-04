@@ -1,12 +1,10 @@
 import React from "react";
-import md from "./image/md.jpg";
+import md from "../public/md.jpg";
 
 function Banner() {
   return (
-    <div className="flex flex-col lg:flex-row max-w-screen-xl mx-auto px-4 mt-28 gap-10">
-
-      {/* LEFT SIDE */}
-      <div className="w-full lg:w-1/2">
+    <div className="flex flex-col lg:flex-row max-w-screen-xl mx-auto px-4 mt-28  gap-10">
+      <div className="w-full lg:w-1/2 mt-20">
         <h1 className="text-3xl md:text-5xl font-semibold">
           Hello, welcomes here to learn something{" "}
           <span className="text-pink-400">new everyday!!!</span>
@@ -46,15 +44,15 @@ function Banner() {
         </button>
       </div>
 
-   
       <div className="w-full lg:w-1/2 flex justify-center">
         <img
           src={md}
-         
-          className="w-full md:w-[80%] rounded-md object-contain"
+          alt="banner"
+          className="w-full md:w-[80%] rounded-md object-contain focus:outline-none select-none"
+          tabIndex={-1}
+          draggable="false"
         />
       </div>
-
     </div>
   );
 }

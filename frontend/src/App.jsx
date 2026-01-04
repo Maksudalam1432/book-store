@@ -1,11 +1,12 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Banner from './components/banner'
+import Home from './components/Home'
+
 
 function App() {
   return (
-    <div><Navbar/>
-    <Banner/>
+    <div>
+      <Home/>
+      
     </div>
   )
 }
