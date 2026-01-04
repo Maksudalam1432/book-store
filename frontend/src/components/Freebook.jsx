@@ -15,7 +15,7 @@ function Freebook() {
     arrows: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 3,      // 3 cards on UI
+    slidesToShow: 3,      
     slidesToScroll: 1,
     responsive: [
       { breakpoint: 1024, settings: { slidesToShow: 2 } },
@@ -24,7 +24,7 @@ function Freebook() {
   };
 
   return (
-    <div className="max-w-screen-xl mx-auto px-4 mt-28 mb-20">
+    <div className="max-w-screen-xl mx-auto px-4 mt-20 mb-20">
       <h1 className="text-2xl font-semibold mb-6">Free Offer Book</h1>
 
       <Slider {...settings}>
@@ -53,7 +53,7 @@ function Freebook() {
                 </p>
            
                 <div className="mt-auto">
-                  <button className="btn btn-primary w-full">
+                  <button className="btn bg-gray-400 w-full">
                     Buy Now
                   </button>
                 </div>

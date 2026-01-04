@@ -10,7 +10,7 @@ function Banner() {
           <span className="text-pink-400">new everyday!!!</span>
         </h1>
 
-        <p className="mt-6 text-lg md:text-xl text-justify">
+        <p className="mt-10 text-lg md:text-xl text-justify">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
           autem expedita culpa sed reiciendis delectus saepe voluptatum ducimus
           necessitatibus, harum aperiam repellat maxime recusandae error
@@ -19,7 +19,7 @@ function Banner() {
           laboriosam maxime?
         </p>
 
-        <label className="input validator mt-8 w-full md:w-2/3">
+        <label className="input validator mt-12 w-full md:w-2/3">
           <svg
             className="h-[1em] opacity-50"
             xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@ function Banner() {
           <input type="email" placeholder="mail@site.com" required />
         </label>
 
-        <button className="btn btn-secondary mt-8 ml-4">
+        <button className="btn btn-secondary mt-13 ml-4">
           Secondary
         </button>
       </div>
