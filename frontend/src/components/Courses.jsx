@@ -1,12 +1,27 @@
 import React from "react";
-import data from "../public/data.json";
+import axios from "axios"
+import { useState,useEffect } from "react";
 import { Link } from "react-router-dom";
+
+
 
 const truncateTitle = (title, maxLength = 90) =>
   title.length > maxLength ? title.slice(0, maxLength) + "..." : title;
 
 function Courses() {
-  // only PAID courses
+  
+     const [data,setdata]=useState([])
+    
+
+
+  useEffect(()=>{
+    const getdata = async() =>{
+       const res=await axios.get("http://localhost:8000/book/api")
+      setdata(res.data)
+    }
+    getdata()
+  },[])
+
   const filterdata = data.filter((item) => item.price !== 0);
 
   return (

@@ -7,8 +7,11 @@ import Contact from './components/Contact'
 import Navbar from './components/Navbar'
 import Login from './components/Login'
 import Signup from './components/Signup'
+import  { Toaster } from 'react-hot-toast';
+
 
 function App() {
+   
   return (
     <div>
       
@@ -21,6 +24,8 @@ function App() {
     <Route path='/signup' element={<Signup/>}/>
 
      </Routes>
+           <Toaster />
+
     </div>
   )
 }

@@ -1,18 +1,43 @@
-import React from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import axios from "axios";
+import toast from "react-hot-toast";
 
 function Login() {
+  const [showPassword, setShowPassword] = useState(false);
+  const navigate = useNavigate();
+
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => {
-    console.log("Login Data:", data);
+  const onSubmit = async (data) => {
+    try {
+      const userinfo = {
+        email: data.email,
+        password: data.password,
+      };
+
+      const res = await axios.post(
+        "http://localhost:8000/api/login",
+        userinfo
+      );
+
+      localStorage.setItem("user", JSON.stringify(res.data.user));
+      toast.success("Login Successfully");
+
+      reset();
+      navigate("/"); 
+
+    } catch (error) {
+      toast.error("Invalid user");
+    }
   };
 
   return (
@@ -34,39 +59,36 @@ function Login() {
           >
             <div className="card-body space-y-4">
               <div>
-                <label className="label">
-                  <span className="label-text">Email</span>
-                </label>
+                <label className="label">Email</label>
                 <input
                   type="email"
-                  placeholder="Enter your email"
                   className="input input-bordered w-full"
-                  {...register("email", { required: "Email is required" })}
+                  {...register("email", { required: true })}
                 />
                 {errors.email && (
-                  <p className="text-error text-sm">{errors.email.message}</p>
+                  <p className="text-error text-sm">Email is required</p>
                 )}
               </div>
 
               <div>
-                <label className="label">
-                  <span className="label-text">Password</span>
-                </label>
-                <input
-                  type="password"
-                  placeholder="Enter your password"
-                  className="input input-bordered w-full"
-                  {...register("password", {
-                    required: "Password is required",
-                    minLength: {
-                      value: 6,
-                      message: "Minimum 6 characters",
-                    },
-                  })}
-                />
+                <label className="label">Password</label>
+                <div className="relative">
+                  <input
+                    type={showPassword ? "text" : "password"}
+                    className="input input-bordered w-full pr-10"
+                    {...register("password", { required: true, minLength: 6 })}
+                  />
+                  <button
+                    type="button"
+                    onClick={() => setShowPassword(!showPassword)}
+                    className="absolute right-3 top-3 text-sm"
+                  >
+                    {showPassword ? "Hide" : "Show"}
+                  </button>
+                </div>
                 {errors.password && (
                   <p className="text-error text-sm">
-                    {errors.password.message}
+                    Password is required
                   </p>
                 )}
               </div>
@@ -75,14 +97,12 @@ function Login() {
                 Login
               </button>
 
-              <div className="text-center text-sm text-gray-500">
-                <p>
-                  Don’t have an account?{" "}
-                  <Link to="/signup" className="text-primary">
-                    Sign Up
-                  </Link>
-                </p>
-              </div>
+              <p className="text-center text-sm">
+                Don’t have an account?{" "}
+                <Link to="/signup" className="text-primary">
+                  Sign Up
+                </Link>
+              </p>
             </div>
           </form>
         </div>

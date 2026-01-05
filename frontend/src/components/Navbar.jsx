@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { useAuth } from "../context/Authprovider";
+import Logout from "./Logout";
 
 
 function Navbar() {
   const [theme, setTheme] = useState("light");
-
+const  [authUser,setAuthUser]=useAuth()
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
   }, [theme]);
@@ -32,7 +34,7 @@ function Navbar() {
             <label className="input input-bordered flex items-center gap-2 h-9">
               <svg
                 className="h-[1em] opacity-50"
-                xmlns="http://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
               >
                 <g
@@ -73,7 +75,11 @@ function Navbar() {
           </svg>
         </label>
 
-        <button className="btn btn-primary"><Link to="/login">Login</Link></button>
+        {
+   authUser ?(<Logout/>) :(
+        <button className="btn btn-primary"><Link to="/login">Login</Link></button> 
+      )
+        }
       </div>
 
     </div>

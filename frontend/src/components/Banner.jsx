@@ -2,6 +2,8 @@ import React from "react";
 import md from "../public/md.jpg";
 
 function Banner() {
+
+
   return (
     <div className="flex flex-col lg:flex-row max-w-screen-xl mx-auto px-4 mt-28  gap-10">
       <div className="w-full lg:w-1/2 mt-20">
