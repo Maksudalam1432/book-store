@@ -18,6 +18,7 @@ function Courses() {
     const getdata = async() =>{
        const res=await axios.get("http://localhost:8000/book/api")
       setdata(res.data)
+      
     }
     getdata()
   },[])
@@ -50,13 +51,12 @@ function Courses() {
                 className="w-full h-full object-cover"
               />
             </figure>
-
          
             <div className="card-body flex flex-col">
               <h2 className="card-title text-base min-h-[48px]">
                 {truncateTitle(item.title)}
               </h2>
-
+              
               <p className="text-sm text-gray-500">{item.author}</p>
 
               <p className="text-lg font-semibold text-primary">

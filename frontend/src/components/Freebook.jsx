@@ -14,10 +14,12 @@ function Freebook() {
     const getdata = async() =>{
        const res=await axios.get("http://localhost:8000/book/api")
     setdata(res.data)
+    // console.log(res.data)
     }
     getdata()
   },[])
-  const filterdata = data.filter((item) => item.category === "free");
+  const filterdata = data.filter((item) => item.price === 0);
+  console.log(filterdata)
 
   const settings = {
     dots: true,
@@ -62,8 +64,8 @@ function Freebook() {
                 </p>
            
                 <div className="mt-auto">
-                  <button className="btn bg-gray-400 w-full">
-                    Buy Now
+                  <button  className="btn bg-gray-400 w-full">
+                    FREE
                   </button>
                 </div>
               </div>

@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "JavaScript Basics",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, placeat sint quo ab quae praesentium, laudantium doloremque atque.",
+    "author": "Maksud Alam",
+    "price": 0,
+    "image": "https://imgs.search.brave.com/tjOFa0-P1kjPIQ10-Mg3v-8uBE5WZDHKboHbsu4k2rg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9j/bG9zZS11cC1vcGVu/LWJvb2stYmVkXzIz/LTIxNDc4NzIxMjcu/anBnP3NlbXQ9YWlz/X2h5YnJpZCZ3PTc0/MCZxPTgw"
+  },
+  {
+    "id": 2,
+    "name": "HTML Crash Course",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, placeat sint quo ab quae praesentium, laudantium doloremque atque.",
+    "author": "Anas Khan",
+    "price": 399,
+    "image": "https://imgs.search.brave.com/Br7IVOzh_xyhejKQ0Q6Vz8Iqylw_-9OGu0nIJNhHOIM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTA5/NTY5MDIzNC9waG90/by9ib29rcy5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9WjR5/V0oxdWZpbUpEeXU4/c1UyVjZmNE9tNkpu/ZnFIWVFsdkQ3VXNn/VDFPVT0"
+  },
+  {
+    "id": 3,
+    "name": "CSS Fundamentals",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, placeat sint quo ab quae praesentium, laudantium doloremque atque.",
+    "author": "Rohit Sharma",
+    "price": 0,
+    "image": "https://imgs.search.brave.com/f5mSwCyGaeIns4S4220tai8a1xP3oYvQw_HhzWMpsAM/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNDkv/MTc4Lzg4OS9zbWFs/bC9zdGFjay1vZi1v/cGVuLWJvb2tzLW9u/LWEtZ3JlZW4tYmFj/a2dyb3VuZC1rbm93/bGVkZ2UtYW5kLWVk/dWNhdGlvbi1jb25j/ZXB0LXBob3RvLmpw/Zw"
+  },
+  {
+    "id": 4,
+    "name": "Git & GitHub Basics",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, placeat sint quo ab quae praesentium, laudantium doloremque atque.",
+    "author": "Neha Verma",
+    "price": 0,
+    "image": "https://imgs.search.brave.com/gYHahBUBquCeTm-x_2wOYcGPO4HBClFEpRITqJXSYa4/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9wcmQt/c3RhdGljLTEuc2Yt/Y2RuLmNvbS9yZXNv/dXJjZXMvaW1hZ2Vz/L3N0b3JlLzIwMjUv/MjAwMHgzMjUveDIw/MDB4MzI1X2Jvb2tz/X2hlcm8ud2VicC5w/YWdlc3BlZWQuaWMu/ajcwT2xuOFlYNS53/ZWJw"
+  },
+  {
+    "id": 5,
+    "name": "Programming Logic",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, placeat sint quo ab quae praesentium, laudantium doloremque atque.",
+    "author": "Aman Gupta",
+    "price": 0,
+    "image": "https://imgs.search.brave.com/1eAyfxExhNMlu1f_h0iwH_el8AMxlLUQqok2qdc9I6U/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9j/cm9wLXBlcnNvbi1y/ZWFkaW5nLWJvb2tz/dG9yZV8yMy0yMTQ3/NzY3NzUzLmpwZz9z/ZW10PWFpc19oeWJy/aWQmdz03NDAmcT04/MA"
+  },
+  {
+    "id": 6,
+    "name": "Web Basics",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, placeat sint quo ab quae praesentium, laudantium doloremque atque.",
+    "author": "Sahil Ali",
+    "price": 0,
+    "image": "https://imgs.search.brave.com/6rtgPUl4TIkM5pfmlJo-PjZUpnwjF5B728souHntci0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hdS1h/c3NldHMuczMudXMt/d2VzdC0yLmFtYXpv/bmF3cy5jb20vbWVk/aWEvdXNlY2FzZS9w/aG90by13cmFwcGVk/LWhhcmRjb3Zlci1s/ZWFkLWNvdXBsZS5q/cGc"
+  },
+  {
+    "id": 7,
+    "name": "Intro to Computers",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, placeat sint quo ab quae praesentium, laudantium doloremque atque.",
+    "author": "Pooja Singh",
+    "price": 0,
+    "image": "https://imgs.search.brave.com/bN_B0yMDaFMOWNBPBUTPUHxIvy2WzJtC7XvX9YOlBjw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9ib29r/cy0xODQyNDIyOC5q/cGc"
+  },
+  {
+    "id": 8,
+    "name": "Basics of Internet",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, placeat sint quo ab quae praesentium, laudantium doloremque atque.",
+    "author": "Rahul Mehta",
+    "price": 0,
+    "image": "https://imgs.search.brave.com/3V31PbV6mBB4Bg07tJSeDl8tC0S3ux_w9omg6vTa6xE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM1/NDk4OTg0Mi9waG90/by9iYW5uZXItd2l0/aC1ib29rcy1idXNp/bmVzcy1hbmQtZWR1/Y2F0aW9uLWJhY2tn/cm91bmQtYmFjay10/by1zY2hvb2wtY29u/Y2VwdC5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9SEktZ2VF/V04tdWdlcGtRME1R/Nzg1cW5MeFNLazFU/c1J0VVkxU2ZXYnA2/Zz0"
+  },
+  {
+    "id": 9,
+    "name": "Advanced JavaScript",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, placeat sint quo ab quae praesentium, laudantium doloremque atque.",
+    "author": "Maksud Alam",
+    "price": 499,
+    "image": "https://imgs.search.brave.com/3V31PbV6mBB4Bg07tJSeDl8tC0S3ux_w9omg6vTa6xE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM1/NDk4OTg0Mi9waG90/by9iYW5uZXItd2l0/aC1ib29rcy1idXNp/bmVzcy1hbmQtZWR1/Y2F0aW9uLWJhY2tn/cm91bmQtYmFjay10/by1zY2hvb2wtY29u/Y2VwdC5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9SEktZ2VF/V04tdWdlcGtRME1R/Nzg1cW5MeFNLazFU/c1J0VVkxU2ZXYnA2/Zz0"
+  },
+  {
+    "id": 10,
+    "name": "React Mastery",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, placeat sint quo ab quae praesentium, laudantium doloremque atque.",
+    "author": "Anas Khan",
+    "price": 799,
+    "image": "https://imgs.search.brave.com/3V31PbV6mBB4Bg07tJSeDl8tC0S3ux_w9omg6vTa6xE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM1/NDk4OTg0Mi9waG90/by9iYW5uZXItd2l0/aC1ib29rcy1idXNp/bmVzcy1hbmQtZWR1/Y2F0aW9uLWJhY2tn/cm91bmQtYmFjay10/by1zY2hvb2wtY29u/Y2VwdC5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9SEktZ2VF/V04tdWdlcGtRME1R/Nzg1cW5MeFNLazFU/c1J0VVkxU2ZXYnA2/Zz0"
+  },
+  {
+    "id": 11,
+    "name": "Node.js Backend",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, placeat sint quo ab quae praesentium, laudantium doloremque atque.",
+    "author": "Rohit Sharma",
+    "price": 699,
+    "image": "https://imgs.search.brave.com/NftQzfg6w__DEFNfWP6_4I9gUgx5hS3-ehj5tuBZQVQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9vcGVu/ZWQtYm9vay1waWxl/LW9sZC1ib29rcy1v/cGVuZWQtYm9vay1w/aWxlLW9sZC1ib29r/cy1wYW5vcm1hLWdv/b2QtY29weS1zcGFj/ZS0xMDkxOTIyOTUu/anBn"
+  },
+  {
+    "id": 12,
+    "name": "MongoDB Complete Guide",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, placeat sint quo ab quae praesentium, laudantium doloremque atque.",
+    "author": "Neha Verma",
+    "price": 599,
+    "image": "https://imgs.search.brave.com/3V31PbV6mBB4Bg07tJSeDl8tC0S3ux_w9omg6vTa6xE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM1/NDk4OTg0Mi9waG90/by9iYW5uZXItd2l0/aC1ib29rcy1idXNp/bmVzcy1hbmQtZWR1/Y2F0aW9uLWJhY2tn/cm91bmQtYmFjay10/by1zY2hvb2wtY29u/Y2VwdC5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9SEktZ2VF/V04tdWdlcGtRME1R/Nzg1cW5MeFNLazFU/c1J0VVkxU2ZXYnA2/Zz0"
+  },
+  {
+    "id": 13,
+    "name": "Full Stack Web Dev",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, placeat sint quo ab quae praesentium, laudantium doloremque atque.",
+    "author": "Aman Gupta",
+    "price": 899,
+    "image": "https://imgs.search.brave.com/3V31PbV6mBB4Bg07tJSeDl8tC0S3ux_w9omg6vTa6xE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM1/NDk4OTg0Mi9waG90/by9iYW5uZXItd2l0/aC1ib29rcy1idXNp/bmVzcy1hbmQtZWR1/Y2F0aW9uLWJhY2tn/cm91bmQtYmFjay10/by1zY2hvb2wtY29u/Y2VwdC5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9SEktZ2VF/V04tdWdlcGtRME1R/Nzg1cW5MeFNLazFU/c1J0VVkxU2ZXYnA2/Zz0"
+  },
+  {
+    "id": 14,
+    "name": "API Development",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, placeat sint quo ab quae praesentium, laudantium doloremque atque.",
+    "author": "Sahil Ali",
+    "price": 450,
+    "image": "https://imgs.search.brave.com/gDiAYq8qDJ3HV0al1etCNEUzX5XnozQGy6lq5K0kKuY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucGV4ZWxzLmNv/bS9waG90b3MvNzYy/Njg2L3BleGVscy1w/aG90by03NjI2ODYu/anBlZz9hdXRvPWNv/bXByZXNzJmNzPXRp/bnlzcmdiJmRwcj0x/Jnc9NTAw"
+  },
+  {
+    "id": 15,
+    "name": "System Design Basics",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, placeat sint quo ab quae praesentium, laudantium doloremque atque.",
+    "author": "Rahul Mehta",
+    "price": 650,
+    "image": "https://imgs.search.brave.com/gDiAYq8qDJ3HV0al1etCNEUzX5XnozQGy6lq5K0kKuY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucGV4ZWxzLmNv/bS9waG90b3MvNzYy/Njg2L3BleGVscy1w/aG90by03NjI2ODYu/anBlZz9hdXRvPWNv/bXByZXNzJmNzPXRp/bnlzcmdiJmRwcj0x/Jnc9NTAw"
+  },
+  {
+    "id": 16,
+    "name": "Docker Essentials",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, placeat sint quo ab quae praesentium, laudantium doloremque atque.",
+    "author": "Pooja Singh",
+    "price": 500,
+    "image": "https://imgs.search.brave.com/rqVujEbf_vBjw6N5UkHeB2AfoUQsNDeJpmSfdX4yuLE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/d2F0ZXJzdG9uZXMu/Y29tL2ltYWdlcy8w/MDQ5MDk0Ny00MjB4/MjgwLmpwZWc"
+  },
+  {
+    "id": 17,
+    "name": "DevOps Fundamentals",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, placeat sint quo ab quae praesentium, laudantium doloremque atque.",
+    "author": "Ravi Kumar",
+    "price": 750,
+    "image": "https://imgs.search.brave.com/u5FJZz_BWn9BsHtQ1HVxaja9CZKicF-U8-6WgjTi96A/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9ib29r/cy0zNzU2MDI5MS5q/cGc"
+  },
+  {
+    "id": 18,
+    "name": "Cloud Computing",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, placeat sint quo ab quae praesentium, laudantium doloremque atque.",
+    "author": "Amit Shah",
+    "price": 820,
+    "image": "https://imgs.search.brave.com/NftQzfg6w__DEFNfWP6_4I9gUgx5hS3-ehj5tuBZQVQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9vcGVu/ZWQtYm9vay1waWxl/LW9sZC1ib29rcy1v/cGVuZWQtYm9vay1w/aWxlLW9sZC1ib29r/cy1wYW5vcm1hLWdv/b2QtY29weS1zcGFj/ZS0xMDkxOTIyOTUu/anBn"
+  },
+  {
+    "id": 19,
+    "name": "DSA with JavaScript",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, placeat sint quo ab quae praesentium, laudantium doloremque atque.",
+    "author": "Maksud Alam",
+    "price": 899,
+    "image": "https://imgs.search.brave.com/JQ_MVQ9NPs3DJbI0Kl9gr8c6lM7mDNVRxckaXAr9FAo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9zdGFj/ay1vbGQtYW50aXF1/ZS1ib29rcy0xMzE5/NTIxOS5qcGc"
+  },
+  {
+    "id": 20,
+    "name": "Interview Preparation",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, placeat sint quo ab quae praesentium, laudantium doloremque atque.",
+    "author": "Anas Khan",
+    "price": 600,
+    "image": "https://imgs.search.brave.com/tjOFa0-P1kjPIQ10-Mg3v-8uBE5WZDHKboHbsu4k2rg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9j/bG9zZS11cC1vcGVu/LWJvb2stYmVkXzIz/LTIxNDc4NzIxMjcu/anBnP3NlbXQ9YWlz/X2h5YnJpZCZ3PTc0/MCZxPTgw"
+  }
+]

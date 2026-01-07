@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import { useAuth } from "../context/Authprovider";
 import Logout from "./Logout";
 
-
 function Navbar() {
   const [theme, setTheme] = useState("light");
-const  [authUser,setAuthUser]=useAuth()
+  const [authUser] = useAuth();
+
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
   }, [theme]);
@@ -14,52 +14,43 @@ const  [authUser,setAuthUser]=useAuth()
   return (
     <div className="navbar bg-base-100 shadow-md fixed top-0 left-0 w-full z-50 px-4">
 
-      
+      {/* LEFT */}
       <div className="navbar-start">
-        <a className="btn btn-ghost text-xl">Book Store</a>
+        {/* Mobile menu */}
+        <div className="dropdown lg:hidden">
+          <label tabIndex={0} className="btn btn-ghost">
+            ☰
+          </label>
+          <ul
+            tabIndex={0}
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+          >
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/course">Course</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+          </ul>
+        </div>
+
+        <Link to="/" className="btn btn-ghost text-xl">
+          Book Store
+        </Link>
       </div>
 
-     
-      <div className="navbar-center hidden lg:flex items-center gap-4">
-        <ul className="menu menu-horizontal gap-4 items-center">
-          
+      {/* CENTER (Desktop only) */}
+      <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal gap-4">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/course">Course</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/contact">Contact</Link></li>
-      
-
-          
-          <li>
-            <label className="input input-bordered flex items-center gap-2 h-9">
-              <svg
-                className="h-[1em] opacity-50"
-                  xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-              >
-                <g
-                  strokeLinejoin="round"
-                  strokeLinecap="round"
-                  strokeWidth="2.5"
-                  fill="none"
-                  stroke="currentColor"
-                >
-                  <circle cx="11" cy="11" r="8" />
-                  <path d="m21 21-4.3-4.3" />
-                </g>
-              </svg>
-              <input
-                type="search"
-                placeholder="Search"
-                className="grow text-sm"
-              />
-            </label>
-          </li>
         </ul>
       </div>
 
-     
+      {/* RIGHT */}
       <div className="navbar-end gap-3">
+
+        {/* Theme toggle */}
         <label className="swap swap-rotate">
           <input
             type="checkbox"
@@ -75,13 +66,15 @@ const  [authUser,setAuthUser]=useAuth()
           </svg>
         </label>
 
-        {
-   authUser ?(<Logout/>) :(
-        <button className="btn btn-primary"><Link to="/login">Login</Link></button> 
-      )
-        }
+        {/* Auth buttons */}
+        {authUser ? (
+          <Logout />
+        ) : (
+          <Link to="/login" className="btn btn-primary">
+            Login
+          </Link>
+        )}
       </div>
-
     </div>
   );
 }

@@ -5,10 +5,12 @@ import Footer from "./Footer";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import toast from "react-hot-toast";
+import { useAuth } from "../context/Authprovider";
 
 function Signup() {
   const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
+  const [, setAuthUser] = useAuth();
 
   const {
     register,
@@ -32,6 +34,8 @@ function Signup() {
     );
 
     localStorage.setItem("user", JSON.stringify(res.data.user));
+     setAuthUser(res.data.user);
+
     toast.success("Successfully created!");
 
     reset();

@@ -11,7 +11,7 @@ import authroute from "./Route/Authroute.js"
   app.use(express.json())
 app.use("/book",route)
 app.use("/api",authroute)
-app.use("/api",authroute)
+
  app.listen(PORT ,()=>{
     DBconnect()
      console.log(`server start from port number ${PORT}`)
